@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wander Blonde</title>
+  <meta name="description" content="Wander Blonde official links">
+
+  <meta property="og:title" content="Wander Blonde">
+  <meta property="og:description" content="მოგზაურობა, ექსტრემალური და სახალისო თავგადასავლები">
+  <meta property="og:image" content="https://wanderblonde.com/profile.jpg">
+  <meta property="og:url" content="https://wanderblonde.com">
+  <meta property="og:type" content="website">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #e7e8ec;
+      color: #000;
+      text-align: center;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 560px;
+      margin: 0 auto;
+      min-height: 100vh;
+      padding: 46px 22px 42px;
+      background: #eef0f3;
+    }
+
+    .avatar {
+      width: 104px;
+      height: 104px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 18px;
+      background: #ddd;
+    }
+
+    h1 {
+      font-size: 34px;
+      line-height: 1.1;
+      margin: 0 0 10px;
+      font-weight: 850;
+      letter-spacing: -0.5px;
+    }
+
+    .bio {
+      font-size: 18px;
+      line-height: 1.45;
+      margin: 0 auto 20px;
+      color: #000;
+      max-width: 470px;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+      margin-bottom: 30px;
+    }
+
+    .socials a {
+      width: 34px;
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #000;
+      text-decoration: none;
+    }
+
+    .socials svg {
+      width: 30px;
+      height: 30px;
+      fill: currentColor;
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: 850;
+      margin: 6px 0 12px;
+    }
+
+    .video-wrap {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      margin: 0 0 18px;
+      border-radius: 18px;
+      overflow: hidden;
+      background: #000;
+      box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+    }
+
+    .video-wrap iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .card {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      min-height: 78px;
+      background: #fff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 14px;
+      margin: 14px 0;
+      padding: 10px 16px 10px 10px;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+    }
+
+    .card-image {
+      width: 58px;
+      height: 58px;
+      border-radius: 10px;
+      object-fit: cover;
+      flex: 0 0 auto;
+      margin-right: 14px;
+      background: #ddd;
+    }
+
+    .card-text {
+      flex: 1;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    .small-text {
+      display: block;
+      margin-top: 4px;
+      font-size: 13px;
+      font-weight: 650;
+      color: #555;
+    }
+
+    .menu {
+      color: #777;
+      font-size: 24px;
+      line-height: 1;
+      margin-left: 12px;
+    }
+
+    .username-box {
+      background: #fff;
+      border-radius: 14px;
+      padding: 18px;
+      margin: 14px 0;
+      text-align: left;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+    }
+
+    .username-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 8px 0;
+      font-size: 16px;
+      line-height: 1.35;
+    }
+
+    .username-row strong {
+      white-space: nowrap;
+    }
+
+    .username-row span {
+      text-align: right;
+      font-weight: 750;
+    }
+
+    .join {
+      display: inline-block;
+      background: #fff;
+      color: #000;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 850;
+      padding: 18px 28px;
+      margin-top: 42px;
+      border-radius: 999px;
+      box-shadow: 0 10px 26px rgba(0,0,0,0.16);
+    }
+
+    .footer {
+      margin-top: 28px;
+      font-size: 12px;
+      color: #555;
+    }
+
+    @media (max-width: 420px) {
+      .page {
+        padding: 40px 20px 36px;
+      }
+
+      .avatar {
+        width: 96px;
+        height: 96px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      .bio {
+        font-size: 17px;
+      }
+
+      .card-text {
+        font-size: 17px;
+      }
+
+      .username-row {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <img class="avatar" src="profile.jpg" alt="Wander Blonde">
+
+    <h1>Wander Blonde</h1>
+
+    <p class="bio">
+      მოგზაურობა, ექსტრემალური და სახალისო თავგადასავლები
+    </p>
+
+    <div class="socials">
+      <a href="https://www.instagram.com/mariamzarandiaa/" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4c0 3.2-2.6 5.8-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2Zm0 2C5.7 4 4 5.7 4 7.8v8.4C4 18.3 5.7 20 7.8 20h8.4c2.1 0 3.8-1.7 3.8-3.8V7.8C20 5.7 18.3 4 16.2 4H7.8Zm4.2 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 2a2.9 2.9 0 1 0 0 5.8 2.9 2.9 0 0 0 0-5.8Zm5.1-2.3a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2Z"/>
+        </svg>
+      </a>
+
+      <a href="https://www.youtube.com/watch?v=vofZHy47bU8" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21.6 7.2s-.2-1.5-.8-2.1c-.8-.8-1.6-.8-2-.9C16 4 12 4 12 4s-4 0-6.8.2c-.4.1-1.2.1-2 .9-.6.6-.8 2.1-.8 2.1S2.2 9 2.2 10.8v1.7c0 1.8.2 3.6.2 3.6s.2 1.5.8 2.1c.8.8 1.8.8 2.2.9 1.6.2 6.6.2 6.6.2s4 0 6.8-.2c.4-.1 1.2-.1 2-.9.6-.6.8-2.1.8-2.1s.2-1.8.2-3.6v-1.7c0-1.8-.2-3.6-.2-3.6ZM10.1 14.8V8.6l5.8 3.1-5.8 3.1Z"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="section-title">უახლესი ვიდეო</div>
+
+    <div class="video-wrap">
+      <iframe
+        src="https://www.youtube.com/embed/vofZHy47bU8"
+        title="Wander Blonde latest video"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <a class="card" href="https://www.youtube.com/watch?v=vofZHy47bU8">
+      <img class="card-image" src="latest.jpg" alt="Latest YouTube video">
+      <span class="card-text">
+        ვიდეოს YouTube-ზე გახსნა
+        <span class="small-text">გახსენი პირდაპირ YouTube-ზე</span>
+      </span>
+      <span class="menu">⋮</span>
+    </a>
+
+    <a class="card" href="https://www.instagram.com/mariamzarandiaa/">
+      <span class="card-text">Instagram</span>
+      <span class="menu">⋮</span>
+    </a>
+
+    <a class="card" href="https://www.tiktok.com/@mariamzarandia_">
+      <span class="card-text">TikTok</span>
+      <span class="menu">⋮</span>
+    </a>
+
+    <a class="card" href="https://www.youtube.com/watch?v=vofZHy47bU8">
+      <span class="card-text">YouTube</span>
+      <span class="menu">⋮</span>
+    </a>
+
+    <div class="username-box">
+      <div class="username-row">
+        <strong>Instagram</strong>
+        <span>@mariamzarandiaa</span>
+      </div>
+      <div class="username-row">
+        <strong>TikTok</strong>
+        <span>@mariamzarandia_</span>
+      </div>
+      <div class="username-row">
+        <strong>Website</strong>
+        <span>wanderblonde.com</span>
+      </div>
+    </div>
+
+    <a class="join" href="https://www.instagram.com/mariamzarandiaa/">
+      Join Wander Blonde
+    </a>
+
+    <div class="footer">
+      Official links · Wander Blonde
+    </div>
+  </main>
+</body>
+</html>
